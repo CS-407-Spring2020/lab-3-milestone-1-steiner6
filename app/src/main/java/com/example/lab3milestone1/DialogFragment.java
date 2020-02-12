@@ -17,7 +17,6 @@ public class DialogFragment extends AppCompatDialogFragment {
             .setPositiveButton("ok", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialogInterface, int which) {
-
                 }
             });
         return builder.create();
